@@ -1,0 +1,305 @@
+{
+  "clinics": [
+    {
+      "clinicId": 0,
+      "clinicTitle": "Sunrise Medical Center",
+      "cityId": 1,
+      "cityName": "New York City"
+    },
+    {
+      "clinicId": 1,
+      "clinicTitle": "Golden State Hospital",
+      "cityId": 2,
+      "cityName": "Los Angeles"
+    },
+    {
+      "clinicId": 2,
+      "clinicTitle": "Bayview General Hospital",
+      "cityId": 3,
+      "cityName": "San Francisco"
+    },
+    {
+      "clinicId": 3,
+      "clinicTitle": "Windy City Clinic",
+      "cityId": 4,
+      "cityName": "Chicago"
+    },
+    {
+      "clinicId": 4,
+      "clinicTitle": "Lone Star Medical Center",
+      "cityId": 5,
+      "cityName": "Houston"
+    },
+    {
+      "clinicId": 5,
+      "clinicTitle": "Evergreen Health Clinic",
+      "cityId": 6,
+      "cityName": "Seattle"
+    },
+    {
+      "clinicId": 6,
+      "clinicTitle": "Atlantic Health Center",
+      "cityId": 7,
+      "cityName": "Miami"
+    },
+    {
+      "clinicId": 7,
+      "clinicTitle": "Mile High Medical Group",
+      "cityId": 8,
+      "cityName": "Denver"
+    },
+    {
+      "clinicId": 8,
+      "clinicTitle": "Phoenix Wellness Center",
+      "cityId": 9,
+      "cityName": "Phoenix"
+    },
+    {
+      "clinicId": 9,
+      "clinicTitle": "Great Lakes Medical Clinic",
+      "cityId": 10,
+      "cityName": "Detroit"
+    },
+    {
+      "clinicId": 10,
+      "clinicTitle": "Lakeview Hospital",
+      "cityId": 1,
+      "cityName": "New York City"
+    },
+    {
+      "clinicId": 11,
+      "clinicTitle": "Sunset Medical Center",
+      "cityId": 1,
+      "cityName": "New York City"
+    },
+    {
+      "clinicId": 12,
+      "clinicTitle": "Hollywood General Hospital",
+      "cityId": 2,
+      "cityName": "Los Angeles"
+    },
+    {
+      "clinicId": 13,
+      "clinicTitle": "Cali Health Clinic",
+      "cityId": 2,
+      "cityName": "Los Angeles"
+    },
+    {
+      "clinicId": 14,
+      "clinicTitle": "Bay Area Medical Center",
+      "cityId": 3,
+      "cityName": "San Francisco"
+    },
+    {
+      "clinicId": 15,
+      "clinicTitle": "Golden Gate Clinic",
+      "cityId": 3,
+      "cityName": "San Francisco"
+    },
+    {
+      "clinicId": 16,
+      "clinicTitle": "Windy City Clinic East",
+      "cityId": 4,
+      "cityName": "Chicago"
+    },
+    {
+      "clinicId": 17,
+      "clinicTitle": "Windy City Clinic West",
+      "cityId": 4,
+      "cityName": "Chicago"
+    },
+    {
+      "clinicId": 18,
+      "clinicTitle": "Lone Star Medical Center North",
+      "cityId": 5,
+      "cityName": "Houston"
+    },
+    {
+      "clinicId": 19,
+      "clinicTitle": "Lone Star Medical Center South",
+      "cityId": 5,
+      "cityName": "Houston"
+    },
+    {
+      "clinicId": 20,
+      "clinicTitle": "Evergreen Health Clinic Downtown",
+      "cityId": 6,
+      "cityName": "Seattle"
+    },
+    {
+      "clinicId": 21,
+      "clinicTitle": "Evergreen Health Clinic Suburbs",
+      "cityId": 6,
+      "cityName": "Seattle"
+    },
+    {
+      "clinicId": 22,
+      "clinicTitle": "Atlantic Health Center Beachside",
+      "cityId": 7,
+      "cityName": "Miami"
+    },
+    {
+      "clinicId": 23,
+      "clinicTitle": "Atlantic Health Center Uptown",
+      "cityId": 7,
+      "cityName": "Miami"
+    },
+    {
+      "clinicId": 24,
+      "clinicTitle": "Mile High Medical Group North",
+      "cityId": 8,
+      "cityName": "Denver"
+    },
+    {
+      "clinicId": 25,
+      "clinicTitle": "Mile High Medical Group South",
+      "cityId": 8,
+      "cityName": "Denver"
+    },
+    {
+      "clinicId": 26,
+      "clinicTitle": "Phoenix Wellness Center West",
+      "cityId": 9,
+      "cityName": "Phoenix"
+    },
+    {
+      "clinicId": 27,
+      "clinicTitle": "Phoenix Wellness Center East",
+      "cityId": 9,
+      "cityName": "Phoenix"
+    },
+    {
+      "clinicId": 28,
+      "clinicTitle": "Great Lakes Medical Clinic North",
+      "cityId": 10,
+      "cityName": "Detroit"
+    },
+    {
+      "clinicId": 29,
+      "clinicTitle": "Great Lakes Medical Clinic South",
+      "cityId": 10,
+      "cityName": "Detroit"
+    },
+   
+    {
+      "clinicId": 30,
+      "clinicTitle": "East Coast Hospital",
+      "cityId": 1,
+      "cityName": "New York City"
+    },
+    {
+      "clinicId": 31,
+      "clinicTitle": "West Coast Clinic",
+      "cityId": 2,
+      "cityName": "Los Angeles"
+    },
+    {
+      "clinicId": 32,
+      "clinicTitle": "Bayshore Medical Center",
+      "cityId": 3,
+      "cityName": "San Francisco"
+    },
+    {
+      "clinicId": 33,
+      "clinicTitle": "Midwest General Hospital",
+      "cityId": 4,
+      "cityName": "Chicago"
+    },
+    {
+      "clinicId": 34,
+      "clinicTitle": "Southern Star Medical Center",
+      "cityId": 5,
+      "cityName": "Houston"
+    },
+    {
+      "clinicId": 35,
+      "clinicTitle": "Pacific Health Clinic",
+      "cityId": 6,
+      "cityName": "Seattle"
+    },
+    {
+      "clinicId": 36,
+      "clinicTitle": "Sunset Beach Health Center",
+      "cityId": 7,
+      "cityName": "Miami"
+    },
+    {
+      "clinicId": 37,
+      "clinicTitle": "Rocky Mountain Medical Group",
+      "cityId": 8,
+      "cityName": "Denver"
+    },
+    {
+      "clinicId": 38,
+      "clinicTitle": "Desert Wellness Center",
+      "cityId": 9,
+      "cityName": "Phoenix"
+    },
+    {
+      "clinicId": 39,
+      "clinicTitle": "Great Lakes Medical Clinic Downtown",
+      "cityId": 10,
+      "cityName": "Detroit"
+    },
+    {
+      "clinicId": 40,
+      "clinicTitle": "East Side Hospital",
+      "cityId": 1,
+      "cityName": "New York City"
+    },
+    {
+      "clinicId": 41,
+      "clinicTitle": "West Side Clinic",
+      "cityId": 1,
+      "cityName": "New York City"
+    },
+    {
+      "clinicId": 42,
+      "clinicTitle": "Bayfront Medical Center",
+      "cityId": 3,
+      "cityName": "San Francisco"
+    },
+    {
+      "clinicId": 43,
+      "clinicTitle": "Downtown Health Clinic",
+      "cityId": 3,
+      "cityName": "San Francisco"
+    },
+    {
+      "clinicId": 44,
+      "clinicTitle": "Lakefront General Hospital",
+      "cityId": 4,
+      "cityName": "Chicago"
+    },
+    {
+      "clinicId": 45,
+      "clinicTitle": "Central City Clinic",
+      "cityId": 4,
+      "cityName": "Chicago"
+    },
+    {
+      "clinicId": 46,
+      "clinicTitle": "South Star Medical Center",
+      "cityId": 5,
+      "cityName": "Houston"
+    },
+    {
+      "clinicId": 47,
+      "clinicTitle": "North Star Medical Center",
+      "cityId": 5,
+      "cityName": "Houston"
+    },
+    {
+      "clinicId": 48,
+      "clinicTitle": "Harbor Health Clinic",
+      "cityId": 6,
+      "cityName": "Seattle"
+    },
+    {
+      "clinicId": 49,
+      "clinicTitle": "Beachside Health Center",
+      "cityId": 7,
+      "cityName": "Miami"
+    }
+  ]
+}

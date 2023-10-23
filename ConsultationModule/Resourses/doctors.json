@@ -1,0 +1,114 @@
+{
+  "doctors": [
+    {
+      "doctorId": 1,
+      "avatar": "avatar1.jpg",
+      "doctorName": "Dr. Smith",
+      "specializations": ["Cardiology", "Internal Medicine"],
+      "tags": ["Experienced", "Friendly"],
+      "isFavorite": true,
+      "rating": 4.8,
+      "clinicId": 1,
+      "title": "Cardiologist"
+    },
+    {
+      "doctorId": 2,
+      "avatar": "avatar2.jpg",
+      "doctorName": "Dr. Johnson",
+      "specializations": ["Dermatology", "Cosmetic Procedures"],
+      "tags": ["Expert", "Approachable"],
+      "isFavorite": false,
+      "rating": 4.5,
+      "clinicId": 2,
+      "title": "Dermatologist"
+    },
+    {
+      "doctorId": 3,
+      "avatar": "avatar3.jpg",
+      "doctorName": "Dr. Davis",
+      "specializations": ["Orthopedics"],
+      "tags": ["Skilled", "Caring"],
+      "isFavorite": true,
+      "rating": 4.9,
+      "clinicId": 3,
+      "title": "Orthopedic Surgeon"
+    },
+    {
+      "doctorId": 4,
+      "avatar": "avatar4.jpg",
+      "doctorName": "Dr. Anderson",
+      "specializations": ["Pediatrics"],
+      "tags": ["Pediatric Expert", "Kind"],
+      "isFavorite": false,
+      "rating": 4.7,
+      "clinicId": 4,
+      "title": "Pediatrician"
+    },
+    {
+      "doctorId": 5,
+      "avatar": "avatar5.jpg",
+      "doctorName": "Dr. Jackson",
+      "specializations": ["Ophthalmology"],
+      "tags": ["Eye Specialist", "Patient"],
+      "isFavorite": true,
+      "rating": 4.6,
+      "clinicId": 5,
+      "title": "Ophthalmologist"
+    },
+    {
+      "doctorId": 6,
+      "avatar": "avatar6.jpg",
+      "doctorName": "Dr. Harris",
+      "specializations": ["Obstetrics and Gynecology"],
+      "tags": ["Women's Health", "Caring"],
+      "isFavorite": false,
+      "rating": 4.8,
+      "clinicId": 6,
+      "title": "Obstetrician/Gynecologist"
+    },
+    {
+      "doctorId": 7,
+      "avatar": "avatar7.jpg",
+      "doctorName": "Dr. Martinez",
+      "specializations": ["Neurology"],
+      "tags": ["Brain Specialist", "Understanding"],
+      "isFavorite": true,
+      "rating": 4.9,
+      "clinicId": 7,
+      "title": "Neurologist"
+    },
+    {
+      "doctorId": 8,
+      "avatar": "avatar8.jpg",
+      "doctorName": "Dr. Clark",
+      "specializations": ["Urology"],
+      "tags": ["Urologic Expert", "Patient"],
+      "isFavorite": false,
+      "rating": 4.7,
+      "clinicId": 8,
+      "title": "Urologist"
+    },
+    {
+      "doctorId": 9,
+      "avatar": "avatar9.jpg",
+      "doctorName": "Dr. Turner",
+      "specializations": ["Psychiatry"],
+      "tags": ["Mental Health", "Empathetic"],
+      "isFavorite": true,
+      "rating": 4.8,
+      "clinicId": 9,
+      "title": "Psychiatrist"
+    },
+    {
+      "doctorId": 10,
+      "avatar": "avatar10.jpg",
+      "doctorName": "Dr. Walker",
+      "specializations": ["Dentistry"],
+      "tags": ["Dental Care", "Friendly"],
+      "isFavorite": true,
+      "rating": 4.7,
+      "clinicId": 10,
+      "title": "Dentist"
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "clinics": [
+    {
+      "clinicId": 1,
+      "consultationsByAmount": [
+        {
+          "serviceId": 101,
+          "code": "ABC123",
+          "price": 50,
+          "amount": 10,
+          "discount": 5
+        },
+        {
+          "serviceId": 102,
+          "code": "XYZ456",
+          "price": 60,
+          "amount": 8,
+          "discount": 8
+        },
+        {
+          "serviceId": 103,
+          "code": "PQR789",
+          "price": 70,
+          "amount": 15,
+          "discount": 7
+        },
+        {
+          "serviceId": 104,
+          "code": "LMN012",
+          "price": 80,
+          "amount": 12,
+          "discount": 6
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 201,
+          "code": "AB12CD",
+          "price": 70,
+          "amount": 4,
+          "discount": 10,
+          "periodMonths": 3
+        },
+        {
+          "serviceId": 202,
+          "code": "XY34ZW",
+          "price": 80,
+          "amount": 5,
+          "discount": 12,
+          "periodMonths": 3
+        },
+        {
+          "serviceId": 203,
+          "code": "PQ56RM",
+          "price": 90,
+          "amount": 6,
+          "discount": 14,
+          "periodMonths": 3
+        },
+        {
+          "serviceId": 204,
+          "code": "LM78NO",
+          "price": 100,
+          "amount": 7,
+          "discount": 16,
+          "periodMonths": 3
+        }
+      ]
+    },
+    {
+      "clinicId": 2,
+      "consultationsByAmount": [
+        {
+          "serviceId": 301,
+          "code": "ABCD12",
+          "price": 90,
+          "amount": 18,
+          "discount": 10
+        },
+        {
+          "serviceId": 302,
+          "code": "XYZW34",
+          "price": 100,
+          "amount": 20,
+          "discount": 12
+        },
+        {
+          "serviceId": 303,
+          "code": "PQR567",
+          "price": 110,
+          "amount": 22,
+          "discount": 14
+        },
+        {
+          "serviceId": 304,
+          "code": "LMN890",
+          "price": 120,
+          "amount": 24,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 401,
+          "code": "AB12CD",
+          "price": 110,
+          "amount": 9,
+          "discount": 10,
+          "periodMonths": 6
+        },
+        {
+          "serviceId": 402,
+          "code": "XY34ZW",
+          "price": 120,
+          "amount": 10,
+          "discount": 12,
+          "periodMonths": 6
+        },
+        {
+          "serviceId": 403,
+          "code": "PQ56RM",
+          "price": 130,
+          "amount": 11,
+          "discount": 14,
+          "periodMonths": 6
+        },
+        {
+          "serviceId": 404,
+          "code": "LM78NO",
+          "price": 140,
+          "amount": 12,
+          "discount": 16,
+          "periodMonths": 6
+        }
+      ]
+    },
+    {
+      "clinicId": 3,
+      "consultationsByAmount": [
+        {
+          "serviceId": 501,
+          "code": "AB12CD",
+          "price": 130,
+          "amount": 12,
+          "discount": 10
+        },
+        {
+          "serviceId": 502,
+          "code": "XY34ZW",
+          "price": 140,
+          "amount": 14,
+          "discount": 12
+        },
+        {
+          "serviceId": 503,
+          "code": "PQ56RM",
+          "price": 150,
+          "amount": 16,
+          "discount": 14
+        },
+        {
+          "serviceId": 504,
+          "code": "LM78NO",
+          "price": 160,
+          "amount": 18,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 601,
+          "code": "AB12CD",
+          "price": 150,
+          "amount": 8,
+          "discount": 10,
+          "periodMonths": 9
+        },
+        {
+          "serviceId": 602,
+          "code": "XY34ZW",
+          "price": 160,
+          "amount": 9,
+          "discount": 12,
+          "periodMonths": 9
+        },
+        {
+          "serviceId": 603,
+          "code": "PQ56RM",
+          "price": 170,
+          "amount": 10,
+          "discount": 14,
+          "periodMonths": 9
+        },
+        {
+          "serviceId": 604,
+          "code": "LM78NO",
+          "price": 180,
+          "amount": 11,
+          "discount": 16,
+          "periodMonths": 9
+        }
+      ]
+    },
+    {
+      "clinicId": 4,
+      "consultationsByAmount": [
+        {
+          "serviceId": 701,
+          "code": "AB12CD",
+          "price": 170,
+          "amount": 22,
+          "discount": 10
+        },
+        {
+          "serviceId": 702,
+          "code": "XY34ZW",
+          "price": 180,
+          "amount": 24,
+          "discount": 12
+        },
+        {
+          "serviceId": 703,
+          "code": "PQ56RM",
+          "price": 190,
+          "amount": 26,
+          "discount": 14
+        },
+        {
+          "serviceId": 704,
+          "code": "LM78NO",
+          "price": 200,
+          "amount": 28,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 801,
+          "code": "AB12CD",
+          "price": 190,
+          "amount": 6,
+          "discount": 10,
+          "periodMonths": 12
+        },
+        {
+          "serviceId": 802,
+          "code": "XY34ZW",
+          "price": 200,
+          "amount": 7,
+          "discount": 12,
+          "periodMonths": 12
+        },
+        {
+          "serviceId": 803,
+          "code": "PQ56RM",
+          "price": 210,
+          "amount": 8,
+          "discount": 14,
+          "periodMonths": 12
+        },
+        {
+          "serviceId": 804,
+          "code": "LM78NO",
+          "price": 220,
+          "amount": 9,
+          "discount": 16,
+          "periodMonths": 12
+        }
+      ]
+    },
+    {
+      "clinicId": 5,
+      "consultationsByAmount": [
+        {
+          "serviceId": 901,
+          "code": "AB12CD",
+          "price": 210,
+          "amount": 32,
+          "discount": 10
+        },
+        {
+          "serviceId": 902,
+          "code": "XY34ZW",
+          "price": 220,
+          "amount": 36,
+          "discount": 12
+        },
+        {
+          "serviceId": 903,
+          "code": "PQ56RM",
+          "price": 230,
+          "amount": 40,
+          "discount": 14
+        },
+        {
+          "serviceId": 904,
+          "code": "LM78NO",
+          "price": 240,
+          "amount": 44,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 1001,
+          "code": "AB12CD",
+          "price": 230,
+          "amount": 16,
+          "discount": 10,
+          "periodMonths": 18
+        },
+        {
+          "serviceId": 1002,
+          "code": "XY34ZW",
+          "price": 240,
+          "amount": 18,
+          "discount": 12,
+          "periodMonths": 18
+        },
+        {
+          "serviceId": 1003,
+          "code": "PQ56RM",
+          "price": 250,
+          "amount": 20,
+          "discount": 14,
+          "periodMonths": 18
+        },
+        {
+          "serviceId": 1004,
+          "code": "LM78NO",
+          "price": 260,
+          "amount": 22,
+          "discount": 16,
+          "periodMonths": 18
+        }
+      ]
+    },
+    {
+      "clinicId": 6,
+      "consultationsByAmount": [
+        {
+          "serviceId": 1101,
+          "code": "AB12CD",
+          "price": 250,
+          "amount": 56,
+          "discount": 10
+        },
+        {
+          "serviceId": 1102,
+          "code": "XY34ZW",
+          "price": 260,
+          "amount": 60,
+          "discount": 12
+        },
+        {
+          "serviceId": 1103,
+          "code": "PQ56RM",
+          "price": 270,
+          "amount": 64,
+          "discount": 14
+        },
+        {
+          "serviceId": 1104,
+          "code": "LM78NO",
+          "price": 280,
+          "amount": 68,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 1201,
+          "code": "AB12CD",
+          "price": 270,
+          "amount": 24,
+          "discount": 10,
+          "periodMonths": 24
+        },
+        {
+          "serviceId": 1202,
+          "code": "XY34ZW",
+          "price": 280,
+          "amount": 26,
+          "discount": 12,
+          "periodMonths": 24
+        },
+        {
+          "serviceId": 1203,
+          "code": "PQ56RM",
+          "price": 290,
+          "amount": 28,
+          "discount": 14,
+          "periodMonths": 24
+        },
+        {
+          "serviceId": 1204,
+          "code": "LM78NO",
+          "price": 300,
+          "amount": 30,
+          "discount": 16,
+          "periodMonths": 24
+        }
+      ]
+    },
+    {
+      "clinicId": 7,
+      "consultationsByAmount": [
+        {
+          "serviceId": 1301,
+          "code": "AB12CD",
+          "price": 270,
+          "amount": 40,
+          "discount": 10
+        },
+        {
+          "serviceId": 1302,
+          "code": "XY34ZW",
+          "price": 280,
+          "amount": 44,
+          "discount": 12
+        },
+        {
+          "serviceId": 1303,
+          "code": "PQ56RM",
+          "price": 290,
+          "amount": 48,
+          "discount": 14
+        },
+        {
+          "serviceId": 1304,
+          "code": "LM78NO",
+          "price": 300,
+          "amount": 52,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 1401,
+          "code": "AB12CD",
+          "price": 290,
+          "amount": 32,
+          "discount": 10,
+          "periodMonths": 30
+        },
+        {
+          "serviceId": 1402,
+          "code": "XY34ZW",
+          "price": 300,
+          "amount": 36,
+          "discount": 12,
+          "periodMonths": 30
+        },
+        {
+          "serviceId": 1403,
+          "code": "PQ56RM",
+          "price": 310,
+          "amount": 40,
+          "discount": 14,
+          "periodMonths": 30
+        },
+        {
+          "serviceId": 1404,
+          "code": "LM78NO",
+          "price": 320,
+          "amount": 44,
+          "discount": 16,
+          "periodMonths": 30
+        }
+      ]
+    },
+    {
+      "clinicId": 8,
+      "consultationsByAmount": [
+        {
+          "serviceId": 1501,
+          "code": "AB12CD",
+          "price": 310,
+          "amount": 72,
+          "discount": 10
+        },
+        {
+          "serviceId": 1502,
+          "code": "XY34ZW",
+          "price": 320,
+          "amount": 76,
+          "discount": 12
+        },
+        {
+          "serviceId": 1503,
+          "code": "PQ56RM",
+          "price": 330,
+          "amount": 80,
+          "discount": 14
+        },
+        {
+          "serviceId": 1504,
+          "code": "LM78NO",
+          "price": 340,
+          "amount": 84,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 1601,
+          "code": "AB12CD",
+          "price": 330,
+          "amount": 48,
+          "discount": 10,
+          "periodMonths": 36
+        },
+        {
+          "serviceId": 1602,
+          "code": "XY34ZW",
+          "price": 340,
+          "amount": 52,
+          "discount": 12,
+          "periodMonths": 36
+        },
+        {
+          "serviceId": 1603,
+          "code": "PQ56RM",
+          "price": 350,
+          "amount": 56,
+          "discount": 14,
+          "periodMonths": 36
+        },
+        {
+          "serviceId": 1604,
+          "code": "LM78NO",
+          "price": 360,
+          "amount": 60,
+          "discount": 16,
+          "periodMonths": 36
+        }
+      ]
+    },
+    {
+      "clinicId": 9,
+      "consultationsByAmount": [
+        {
+          "serviceId": 1701,
+          "code": "AB12CD",
+          "price": 350,
+          "amount": 96,
+          "discount": 10
+        },
+        {
+          "serviceId": 1702,
+          "code": "XY34ZW",
+          "price": 360,
+          "amount": 100,
+          "discount": 12
+        },
+        {
+          "serviceId": 1703,
+          "code": "PQ56RM",
+          "price": 370,
+          "amount": 104,
+          "discount": 14
+        },
+        {
+          "serviceId": 1704,
+          "code": "LM78NO",
+          "price": 380,
+          "amount": 108,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 1801,
+          "code": "AB12CD",
+          "price": 370,
+          "amount": 64,
+          "discount": 10,
+          "periodMonths": 42
+        },
+        {
+          "serviceId": 1802,
+          "code": "XY34ZW",
+          "price": 380,
+          "amount": 68,
+          "discount": 12,
+          "periodMonths": 42
+        },
+        {
+          "serviceId": 1803,
+          "code": "PQ56RM",
+          "price": 390,
+          "amount": 72,
+          "discount": 14,
+          "periodMonths": 42
+        },
+        {
+          "serviceId": 1804,
+          "code": "LM78NO",
+          "price": 400,
+          "amount": 76,
+          "discount": 16,
+          "periodMonths": 42
+        }
+      ]
+    },
+    {
+      "clinicId": 10,
+      "consultationsByAmount": [
+        {
+          "serviceId": 1901,
+          "code": "AB12CD",
+          "price": 390,
+          "amount": 120,
+          "discount": 10
+        },
+        {
+          "serviceId": 1902,
+          "code": "XY34ZW",
+          "price": 400,
+          "amount": 124,
+          "discount": 12
+        },
+        {
+          "serviceId": 1903,
+          "code": "PQ56RM",
+          "price": 410,
+          "amount": 128,
+          "discount": 14
+        },
+        {
+          "serviceId": 1904,
+          "code": "LM78NO",
+          "price": 420,
+          "amount": 132,
+          "discount": 16
+        }
+      ],
+      "consultationsByPeriod": [
+        {
+          "serviceId": 2001,
+          "code": "AB12CD",
+          "price": 410,
+          "amount": 80,
+          "discount": 10,
+          "periodMonths": 48
+        },
+        {
+          "serviceId": 2002,
+          "code": "XY34ZW",
+          "price": 420,
+          "amount": 84,
+          "discount": 12,
+          "periodMonths": 48
+        },
+        {
+          "serviceId": 2003,
+          "code": "PQ56RM",
+          "price": 430,
+          "amount": 88,
+          "discount": 14,
+          "periodMonths": 48
+        },
+        {
+          "serviceId": 2004,
+          "code": "LM78NO",
+          "price": 440,
+          "amount": 92,
+          "discount": 16,
+          "periodMonths": 48
+        }
+      ]
+    }
+  ]
+}
