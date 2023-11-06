@@ -1,8 +1,17 @@
+import SwiftUI
 import Foundation
 
+// MARK: - Consultation View Model
+
 class ConsultationViewModel: ObservableObject {
-    @Published var consultationsByAmount: [Consultation] = []
-    @Published var consultationsByPeriod: [Consultation] = []
+    
+    // MARK: - Properties
+
+    @Published var consultationsByAmount: [ConsultationByAmount] = []
+    @Published var consultationsByPeriod: [ConsultationByPeriod] = []
+
+    
+    // MARK: func load data consulations
 
     func loadConsultations() {
         DispatchQueue.main.async {
@@ -10,20 +19,16 @@ class ConsultationViewModel: ObservableObject {
                 print("JSON file not found")
                 return
             }
-
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 let consultationsData = try decoder.decode(ConsultationClinicData.self, from: data)
-                if let clinic = consultationsData.clinics.first {
-                    self.consultationsByAmount = clinic.consultationsByAmount
-                    self.consultationsByPeriod = clinic.consultationsByPeriod
-                } else {
-                    print("No clinics data found in JSON")
-                }
+                self.consultationsByAmount = consultationsData.consultationsByAmount
+                self.consultationsByPeriod = consultationsData.consultationsByPeriod
             } catch {
                 print("Error decoding JSON: \(error)")
             }
         }
     }
 }
+

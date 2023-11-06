@@ -1,36 +1,58 @@
-//import SwiftUI
-//struct Swiftui: View {
-//    @ObservedObject var coordinator: Coordinator
-//    @ObservedObject private var mainViewModel = MainViewModel()
-//    @ObservedObject private var consultationViewModel = ConsultationViewModel()
+import SwiftUI
 //
-//    // Передайте модель данных в представление
-//    var data: YourDataModel
+//struct Cards: View {
+//    var mainViewModel: MainViewModel
+//    @Binding var selectedClinic: Clinic?
+//    var filteredClinics: [any Consultation] = [] 
+//
+//    init(mainViewModel: MainViewModel, selectedClinic: Binding<Clinic?>) {
+//        self.mainViewModel = mainViewModel
+//        self._selectedClinic = selectedClinic
+//        if mainViewModel.selectedBuyMode {
+//            filteredClinics = mainViewModel.consultationViewModel.consultationsByPeriod.filter { $0.clinicId == mainViewModel.selectedClinic?.id }
+//        } else {
+//            filteredClinics = mainViewModel.consultationViewModel.consultationsByAmount.filter { $0.clinicId == mainViewModel.selectedClinic?.id }
+//        }
+//    }
 //
 //    var body: some View {
-//        ZStack {
-//            Color("background")
-//                .ignoresSafeArea()
-//
-//            List {
-//                ForEach(data.clinics) { clinic in
-//                    Section(header: Text("Clinic ID: \(clinic.clinicId)")) {
-//                        ForEach(clinic.consultationsByAmount, id: \.serviceId) { consultation in
-//                            Text("Service ID: \(consultation.serviceId), Price: \(consultation.price)")
+//        VStack {
+//            LazyVGrid(columns: [
+//                GridItem(.flexible(minimum: 100, maximum: .infinity), spacing: 16),
+//                GridItem(.flexible(minimum: 100, maximum: .infinity), spacing: 16)
+//            ], spacing: 64) {
+//                ForEach(filteredClinics.indices, id: \.self) { index in
+//                    GeometryReader { geometry in
+//                        VStack {
+//                            CustomCards(
+//                                price: filteredClinics[index].price,
+//                                discount: filteredClinics[index].discount,
+//                                amount: (filteredClinics[index] as? ConsultationByAmount)?.amount,
+//                                periodMonths: (filteredClinics[index] as? ConsultationByPeriod)?.periodMonths
+//                            )
 //                        }
-//                        ForEach(clinic.consultationsByPeriod, id: \.serviceId) { consultation in
-//                            Text("Service ID: \(consultation.serviceId), Price: \(consultation.price)")
+//                        .padding(16)
+//                        .frame(width: geometry.size.width, height: 70)
+//                        .background(Color.white)
+//                        .overlay(
+//                            RoundedRectangle(cornerRadius: 8)
+//                                .stroke(mainViewModel.selectedCardIndex == index ? Color("button") : Color.clear, lineWidth: 2)
+//                        )
+//                        .cornerRadius(8)
+//                        .onTapGesture {
+//                            mainViewModel.selectedCardIndex = index
 //                        }
 //                    }
+//                    .padding(.bottom, 8)
+//                }
+//            }
+//            if mainViewModel.selectedCardIndex != nil {
+//                Group {
+//                    TextInfo()
+//                    PayInfo()
 //                }
 //            }
 //        }
-//    }
-//}
-//
-//struct SwiftuiView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        // Создайте модель данных и передайте ее в представление
-//        Swiftui(coordinator: Coordinator(), data: yourDataModel)
+//        .padding(.horizontal, 16)
 //    }
 //}

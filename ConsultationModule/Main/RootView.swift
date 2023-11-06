@@ -1,8 +1,15 @@
 import SwiftUI
 
+// MARK: Root View
+
 struct ContentView: View {
+    
+    // MARK: Properties
+    
     @ObservedObject private var coordinator = Coordinator()
 
+    // MARK: View
+    
     var body: some View {
             VStack {
                 Button(action: {

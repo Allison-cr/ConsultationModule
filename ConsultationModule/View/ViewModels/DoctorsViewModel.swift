@@ -1,7 +1,15 @@
 import Foundation
 
+
+// MARK: - Doctors View Model
+
 class DoctorsViewModel: ObservableObject {
+    
+    // MARK: - Properties
+
     @Published var doctors: [Doctor] = []
+
+    // MARK: func load data doctors
 
     func loadDoctors() {
         guard let url = Bundle.main.url(forResource: "doctors", withExtension: "json") else {

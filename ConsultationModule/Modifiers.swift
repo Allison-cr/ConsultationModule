@@ -1,5 +1,7 @@
 import SwiftUI
 
+// MARK: - Custom Modifiers
+
 struct CustomModifier: ViewModifier {
     let textColor: Color
     let buttonColor : Color
@@ -14,6 +16,9 @@ struct CustomModifier: ViewModifier {
             .font(.system(size: 16, weight: .medium))
     }
 }
+
+// MARK: - Custom Modifiers
+
 struct PickerStyleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
@@ -26,6 +31,9 @@ struct PickerStyleModifier: ViewModifier {
             .padding(.bottom, 16)
     }
 }
+
+
+// MARK: - Custom Modifiers
 
 struct LazyVStackStyleModifier: ViewModifier {
     func body(content: Content) -> some View {
@@ -40,16 +48,25 @@ struct LazyVStackStyleModifier: ViewModifier {
     }
 }
 
+
+// MARK: - Extension Modifier
+
 extension View {
     func customStyle(textColor: Color, buttonColor: Color) -> some View {
         modifier(CustomModifier(textColor: textColor, buttonColor: buttonColor))
     }
 }
+
+// MARK: - Extension Modifier
+
 extension View {
     func applyPickerStyle() -> some View {
         modifier(PickerStyleModifier())
     }
 }
+
+// MARK: - Extension Modifier
+
 extension View {
     func applyLazyVStackStyle() -> some View {
         modifier(LazyVStackStyleModifier())

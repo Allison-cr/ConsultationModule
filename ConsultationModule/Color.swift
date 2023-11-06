@@ -1,6 +1,4 @@
-//import Foundation
-//import SwiftUI
-//
+// MARK: - Extension colors
 //extension Color {
 //    enum Colors {
 //        static let backgroundMain = Color("background-main")

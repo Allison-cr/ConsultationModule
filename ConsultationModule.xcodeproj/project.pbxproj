@@ -19,6 +19,12 @@
 		FE40BA2A2AD75CCB00FF339D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40BA292AD75CCB00FF339D /* SwiftUIView.swift */; };
 		FE40BA2C2AD75CE300FF339D /* ScreenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40BA2B2AD75CE300FF339D /* ScreenInfo.swift */; };
 		FE40BA2E2AD75CF900FF339D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40BA2D2AD75CF900FF339D /* Coordinator.swift */; };
+		FE5FB32F2AF4FE6B00916D5E /* CheckPayVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FB32E2AF4FE6B00916D5E /* CheckPayVariable.swift */; };
+		FEC97E7F2AED3A7400A78A88 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC97E7E2AED3A7400A78A88 /* CustomText.swift */; };
+		FEC97E812AED3A8300A78A88 /* TextEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC97E802AED3A8300A78A88 /* TextEnum.swift */; };
+		FEC97E842AEE5D2000A78A88 /* CustomPayCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC97E832AEE5D2000A78A88 /* CustomPayCards.swift */; };
+		FEC97E872AEE5D4C00A78A88 /* CardsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC97E862AEE5D4C00A78A88 /* CardsEnum.swift */; };
+		FEC97E892AEE6FE100A78A88 /* BuyModeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC97E882AEE6FE100A78A88 /* BuyModeEnum.swift */; };
 		FEEBC62C2AD80EBE001E9CC0 /* doctors.json in Resources */ = {isa = PBXBuildFile; fileRef = FEEBC62B2AD80EBE001E9CC0 /* doctors.json */; };
 		FEEBC62E2AD80EDE001E9CC0 /* clinics.json in Resources */ = {isa = PBXBuildFile; fileRef = FEEBC62D2AD80EDE001E9CC0 /* clinics.json */; };
 		FEEBC6302AD80EEA001E9CC0 /* consultations.json in Resources */ = {isa = PBXBuildFile; fileRef = FEEBC62F2AD80EEA001E9CC0 /* consultations.json */; };
@@ -27,6 +33,7 @@
 		FEEBC6382AD94800001E9CC0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEBC6372AD94800001E9CC0 /* MainViewModel.swift */; };
 		FEEBC63A2ADAC929001E9CC0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEBC6392ADAC929001E9CC0 /* Color.swift */; };
 		FEEBC63E2ADAD6ED001E9CC0 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEBC63D2ADAD6ED001E9CC0 /* Modifiers.swift */; };
+		FEEBC6802AEA71D5001E9CC0 /* CustomPayVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEBC67F2AEA71D5001E9CC0 /* CustomPayVariable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +50,12 @@
 		FE40BA292AD75CCB00FF339D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		FE40BA2B2AD75CE300FF339D /* ScreenInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenInfo.swift; sourceTree = "<group>"; };
 		FE40BA2D2AD75CF900FF339D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FE5FB32E2AF4FE6B00916D5E /* CheckPayVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPayVariable.swift; sourceTree = "<group>"; };
+		FEC97E7E2AED3A7400A78A88 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		FEC97E802AED3A8300A78A88 /* TextEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEnum.swift; sourceTree = "<group>"; };
+		FEC97E832AEE5D2000A78A88 /* CustomPayCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPayCards.swift; sourceTree = "<group>"; };
+		FEC97E862AEE5D4C00A78A88 /* CardsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsEnum.swift; sourceTree = "<group>"; };
+		FEC97E882AEE6FE100A78A88 /* BuyModeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyModeEnum.swift; sourceTree = "<group>"; };
 		FEEBC62B2AD80EBE001E9CC0 /* doctors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = doctors.json; sourceTree = "<group>"; };
 		FEEBC62D2AD80EDE001E9CC0 /* clinics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clinics.json; sourceTree = "<group>"; };
 		FEEBC62F2AD80EEA001E9CC0 /* consultations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = consultations.json; sourceTree = "<group>"; };
@@ -51,6 +64,7 @@
 		FEEBC6372AD94800001E9CC0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		FEEBC6392ADAC929001E9CC0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FEEBC63D2ADAD6ED001E9CC0 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		FEEBC67F2AEA71D5001E9CC0 /* CustomPayVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPayVariable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +155,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FE5FB32B2AF1236500916D5E /* PayVariable */ = {
+			isa = PBXGroup;
+			children = (
+				FEEBC67F2AEA71D5001E9CC0 /* CustomPayVariable.swift */,
+				FE5FB32E2AF4FE6B00916D5E /* CheckPayVariable.swift */,
+			);
+			name = PayVariable;
+			sourceTree = "<group>";
+		};
+		FEC97E822AED3A8700A78A88 /* CustomText */ = {
+			isa = PBXGroup;
+			children = (
+				FEC97E802AED3A8300A78A88 /* TextEnum.swift */,
+				FEC97E7E2AED3A7400A78A88 /* CustomText.swift */,
+			);
+			name = CustomText;
+			sourceTree = "<group>";
+		};
+		FEC97E852AEE5D3100A78A88 /* CustomPayCards */ = {
+			isa = PBXGroup;
+			children = (
+				FEC97E832AEE5D2000A78A88 /* CustomPayCards.swift */,
+				FEC97E862AEE5D4C00A78A88 /* CardsEnum.swift */,
+			);
+			name = CustomPayCards;
+			sourceTree = "<group>";
+		};
 		FEEBC6332AD9477B001E9CC0 /* not need */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,8 +203,12 @@
 		FEEBC63B2ADAC92E001E9CC0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FEC97E882AEE6FE100A78A88 /* BuyModeEnum.swift */,
 				FEEBC6392ADAC929001E9CC0 /* Color.swift */,
 				FEEBC63D2ADAD6ED001E9CC0 /* Modifiers.swift */,
+				FE5FB32B2AF1236500916D5E /* PayVariable */,
+				FEC97E852AEE5D3100A78A88 /* CustomPayCards */,
+				FEC97E822AED3A8700A78A88 /* CustomText */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -252,8 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC97E872AEE5D4C00A78A88 /* CardsEnum.swift in Sources */,
 				FE40BA1C2AD7257D00FF339D /* RootView.swift in Sources */,
+				FEC97E842AEE5D2000A78A88 /* CustomPayCards.swift in Sources */,
+				FEC97E892AEE6FE100A78A88 /* BuyModeEnum.swift in Sources */,
 				FE40BA1A2AD7257D00FF339D /* ConsultationModuleApp.swift in Sources */,
+				FE5FB32F2AF4FE6B00916D5E /* CheckPayVariable.swift in Sources */,
+				FEEBC6802AEA71D5001E9CC0 /* CustomPayVariable.swift in Sources */,
 				FEEBC6352AD947BF001E9CC0 /* ClinicsViewModel.swift in Sources */,
 				FEEBC63E2ADAD6ED001E9CC0 /* Modifiers.swift in Sources */,
 				FE29CAEE2AD8002D00A0F51A /* DoctorsModel.swift in Sources */,
@@ -261,8 +311,10 @@
 				FEEBC6382AD94800001E9CC0 /* MainViewModel.swift in Sources */,
 				FE40BA2E2AD75CF900FF339D /* Coordinator.swift in Sources */,
 				FE29CAEA2AD8000C00A0F51A /* ClinicsModel.swift in Sources */,
+				FEC97E7F2AED3A7400A78A88 /* CustomText.swift in Sources */,
 				FE29CAF02AD800C300A0F51A /* MainModuleView.swift in Sources */,
 				FEEBC63A2ADAC929001E9CC0 /* Color.swift in Sources */,
+				FEC97E812AED3A8300A78A88 /* TextEnum.swift in Sources */,
 				FE40BA2A2AD75CCB00FF339D /* SwiftUIView.swift in Sources */,
 				FE40BA2C2AD75CE300FF339D /* ScreenInfo.swift in Sources */,
 				FE29CAEC2AD8001C00A0F51A /* ConsultationsModel.swift in Sources */,
