@@ -14,7 +14,7 @@ class MainViewModel: ObservableObject {
     @Published var selectedBuyMode = false
     @Published var selectedCardIndex: Int?
     @Published var selectedMode: BuyMode = .byAmount
-    @Published var selectedCard: (any Consultation)? // Свойство для хранения выбранной карточки
+    @Published var selectedCard: (any Consultation)? 
 
 
 
