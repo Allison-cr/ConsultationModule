@@ -14,7 +14,7 @@
         }
     }
 ```
- 
+ ---   
  Есть 3 модели данных, которые приходят с сервера.
  
  __doctors:__
@@ -73,7 +73,9 @@ __clinics:__
 Дизайн был полностью выполнен из Figma.
 На стартовом экране мы можем выбрать тип покупки услуг по количеству/по подписке. Также надо выбрать клинику. Цены в каждой клинике отличаются.  
 <img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.11.50.png" width="230" height="450"> 
----
+
+---   
+
 >2. __Выбор клиники.__   
 Для выбора клиники реализовано два вида поиска: 
 > -     Поиск по названию
@@ -82,7 +84,9 @@ __clinics:__
 <img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.12.02.png" width="230" height="450">
 <img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.12.14.png" width="230" height="450">
 <img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.12.32.png" width="230" height="450">
----
+
+---   
+
 > __3. После выбора клиники.__  
 У каждой клиники свое количество услуг, свои цены, виды подписок. Если выбрать услугу, появятся поля оплат, чека, кнопка продолжения.  
 > __Покупка по количеству__  
