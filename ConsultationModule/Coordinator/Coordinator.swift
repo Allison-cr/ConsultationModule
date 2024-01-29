@@ -13,11 +13,9 @@ class Coordinator: ObservableObject {
     
     func navigateTo(screenType: ScreenType) {
         if let existingScreenIndex = screenStack.firstIndex(where: { $0.screenType == screenType }) {
-            //print("Returning to existing screen: \(screenType)")
             screenStack.removeLast(screenStack.count - existingScreenIndex - 1)
             displayScreen(screenType)
         } else {
-            //print("Creating and opening a new screen: \(screenType)")
             let newScreen = ScreenInfo(screenType: screenType)
             screenStack.append(newScreen)
             displayScreen(screenType)
