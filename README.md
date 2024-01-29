@@ -78,8 +78,8 @@ __clinics:__
 
 >2. __Выбор клиники.__   
 Для выбора клиники реализовано два вида поиска: 
-> -     Поиск по названию
-> -     Поиск по городам  
+> - Поиск по названию
+> - Поиск по городам  
 > Города в списке взяты из модели, которую присылает сервер. 
 <img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.12.02.png" width="230" height="450">
 <img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.12.14.png" width="230" height="450">
@@ -89,7 +89,9 @@ __clinics:__
 
 > __3. После выбора клиники.__  
 У каждой клиники свое количество услуг, свои цены, виды подписок. Если выбрать услугу, появятся поля оплат, чека, кнопка продолжения.  
+
 > __Покупка по количеству__  
-<img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.13.51.png" width="230" height="450">  
-> __Покупка по подписке__  
+<img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.13.51.png" width="230" height="450">   
+
+>__Покупка по подписке__  
 <img src="https://raw.githubusercontent.com/Allison-cr/ConsultationModule/main/ConsultationModule/Images/Simulator%20Screenshot%20-%20iPhone%2014%20-%202024-01-29%20at%2023.14.08.png" width="230" height="450">
